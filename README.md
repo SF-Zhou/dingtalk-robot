@@ -12,3 +12,9 @@ import dingtalk_robot
 robot = dingtalk_robot.DingtalkRobot(token)
 robot.send_text(text)
 ```
+
+### Install
+
+```bash
+pip3 install dingtalk_robot
+```
