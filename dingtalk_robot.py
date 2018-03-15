@@ -1,5 +1,10 @@
 import requests
-__version__ = '0.0.1'
+
+__version__ = '0.0.3'
+__author__ = 'SF-Zhou'
+__email__ = 'sfzhou.scut@gmail.com'
+__github__ = 'https://github.com/SF-Zhou/DingtalkRobot'
+__description__ = 'Python Package for Dingtalk Robot'
 
 
 class DingtalkRobot:
