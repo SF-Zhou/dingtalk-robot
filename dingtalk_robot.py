@@ -1,6 +1,6 @@
 import requests
 
-__version__ = '0.0.3'
+__version__ = '0.0.4'
 __author__ = 'SF-Zhou'
 __email__ = 'sfzhou.scut@gmail.com'
 __github__ = 'https://github.com/SF-Zhou/DingtalkRobot'

@@ -11,3 +11,12 @@ install:
 script:
     - pycodestyle . --max-line-length=120
     - pytest
+
+deploy:
+    provider: pypi
+    user: "sfzhou"
+    password:
+      secure: Q6xqB5EnHyEARNdlMcnzDQHNIoBTgT/+32JNjyAOUBMdjiI2/zGXY/dPXE8SnULaYZedYg5Xy7XcL5LI5HCU43qcTKf2zUnEEkvCyQRljh3elD5VbwYSWZkwzImci7Ce60dh/uN5e9272vcQSitC8jhqPTaAPimwPz8CSy+qWkr6zBU/LyTm0IebvtCRXSXdBZ04O4TjlW7i8n7yn5A02JevwhgRfNe7akg/7vQDSSA6/4OVNHWT2J8v6M+Pw33yePySmbz1HujoXkUSOllgPN5NsiEsU55gUjJAbdST6J9RlcGheOT5dDGQAVfAxl5v0ArMdwQjOiTwDH/61aQFJYs0wCyx4tHtaLOrBns2HigRsGE5RfccoHWzgtmrMWUGUWGoTLJf6B0MmImc/aAhrIyRBWHFnz8qyprqSA3Eb86BrdvgqOZ2mcFbgq3COWJ4a9GRcUAbOe16cux23NXwyVuOBCgsM7PxwWYI4gIncoixnUMSR3Dwk/I9dy85nKGW4PJ1vHo0BDOHsFtje3yi1V6zS8EoTmQCzybunWy8m4Be6tetPx1m9Y9+CTcCDyE+QQt7bMy8R1wsn1rViiUQc5nmsMY5CqjKyMV8Q3sJT3DfChJcJp39ufPmvZeBznHPS7XVLyYI81LOYrIWvyRJryTq7UQ6SzUF+2oeb/BzZE0=
+    on:
+      tags: true
+      python: 3.6
