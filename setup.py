@@ -4,17 +4,16 @@ Author: SF-Zhou
 Date: 2018-03-15
 """
 
-import dingtalk_robot
 from setuptools import setup
 
 
 setup(
-    name=dingtalk_robot.__name__,
-    version=dingtalk_robot.__version__,
-    description=dingtalk_robot.__description__,
-    url=dingtalk_robot.__github__,
-    author=dingtalk_robot.__author__,
-    author_email=dingtalk_robot.__email__,
+    name='dingtalk_robot',
+    version='0.0.5',
+    description='Python Package for Dingtalk Robot',
+    url='https://github.com/SF-Zhou/DingtalkRobot',
+    author='SF-Zhou',
+    author_email='sfzhou.scut@gmail.com',
 
     license='MIT',
     classifiers=[

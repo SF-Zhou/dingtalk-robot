@@ -1,11 +1,5 @@
 import requests
 
-__version__ = '0.0.4'
-__author__ = 'SF-Zhou'
-__email__ = 'sfzhou.scut@gmail.com'
-__github__ = 'https://github.com/SF-Zhou/DingtalkRobot'
-__description__ = 'Python Package for Dingtalk Robot'
-
 
 class DingtalkRobot:
     BaseUrl = 'https://oapi.dingtalk.com/robot/send?access_token='
