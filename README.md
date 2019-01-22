@@ -1,6 +1,6 @@
 # DingtalkRobot
 
-[![Build Status](https://travis-ci.org/SF-Zhou/DingtalkRobot.svg?branch=master)](https://travis-ci.org/SF-Zhou/DingtalkRobot)
+[![Build Status](https://travis-ci.org/SF-Zhou/dingtalk-robot.svg?branch=master)](https://travis-ci.org/SF-Zhou/dingtalk-robot)
 
 Python Package for Dingtalk Robot
 
